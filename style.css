@@ -1,0 +1,56 @@
+/* Set background image */
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style navigation bar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+/* Style carousel */
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Set max width for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Style footer */
+footer {
+    background-color: #222;
+    color: #fff;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+}
